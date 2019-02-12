@@ -18,4 +18,9 @@ public class WebService : ITissRecursoGlosaBinding
         retorno.hash = loteRecursoGlosaWS.hashField + " - ok";
         return retorno;
     }
+    [WebMethod]
+    public string GetString(string value)
+    {
+        return "valor digitado: " + value;
+    }
 }
