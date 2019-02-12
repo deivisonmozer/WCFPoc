@@ -25,13 +25,25 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFPoc.Vnet472", "WCFPoc.Vn
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFPoc.Client.ConsoleApp", "WCFPoc.Client.ConsoleApp\WCFPoc.Client.ConsoleApp.csproj", "{D1F531D1-BA71-4850-9299-2E84CCD6CD7F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6184B2B-672A-4B54-ADD5-14272026AED8} = {A6184B2B-672A-4B54-ADD5-14272026AED8}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A6184B2B-672A-4B54-ADD5-14272026AED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A6184B2B-672A-4B54-ADD5-14272026AED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6184B2B-672A-4B54-ADD5-14272026AED8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6184B2B-672A-4B54-ADD5-14272026AED8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D1F531D1-BA71-4850-9299-2E84CCD6CD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F531D1-BA71-4850-9299-2E84CCD6CD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F531D1-BA71-4850-9299-2E84CCD6CD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F531D1-BA71-4850-9299-2E84CCD6CD7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
