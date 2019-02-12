@@ -22,15 +22,5 @@ namespace WCFPoc.Client.ConsoleApp.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:50648/Service.svc")]
-        public string WCFPoc_Client_ConsoleApp_localhost_Service {
-            get {
-                return ((string)(this["WCFPoc_Client_ConsoleApp_localhost_Service"]));
-            }
-        }
     }
 }
